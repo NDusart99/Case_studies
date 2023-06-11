@@ -1,0 +1,17 @@
+Channel1: 8.3260
+Channel2: 9.3355
+Channel3: 5.6699
+Channel4: 7.0580
+Channel5: 4.0684
+Channel6: 4.0254
+Channel7: 13.0651
+Channel8: 12.9839
+Channel9: 2.0258
+Channel10: 7.5990
+Channel11: 10.4485
+Channel12: 8.1067
+Channel13: 6.6522
+Channel14: 19.4192
+Channel15: 6.1708
+Channel16: 3.6741
+Channel17: 10.3554
