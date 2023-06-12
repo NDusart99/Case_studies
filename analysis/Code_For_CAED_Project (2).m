@@ -99,7 +99,7 @@ dataset_files = {
     'sub-087_task-eyesclosed_eeg.set', ...
     'sub-088_task-eyesclosed_eeg.set', 
 };
-dataset_folder = 'C:\Users\debac\Documents\MATLAB\eeglab_current\eeglab2023.0\case studies';  % Replace this folder path with you own folder path
+dataset_folder = 'Path_to_folder_with_dataset_files';  % Replace this folder path with you own folder path
 
 % Select which EEG channels and which frequency range
 % we chose to analyse alpha waves
@@ -153,7 +153,7 @@ for dataset_idx = 1:numel(dataset_files)
 
     % Save mean PSD values to a file
     output_filename = ['mean_psd_values_', num2str(dataset_idx, '%03d'), '.txt'];  % Replace with your desired output file name
-    output_filepath = fullfile('C:\Users\debac\Documents\MATLAB', output_filename);  % Replace with your desired output file path
+    output_filepath = fullfile('Path_to_output_folder', output_filename);  % Replace with your desired output file path
 
    % Write mean PSD values to the file
     fid = fopen(output_filepath, 'w');
