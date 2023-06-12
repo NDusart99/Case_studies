@@ -1,3 +1,8 @@
+% CASE STUDIES IN EXPERIMENTAL PSYCHOLOGY: DEMENTIA DATASET
+% Matlab script for the extraction of mean alpha wave power per channel per participant
+% The preprocessed data is available in the folder 'original_data', or can be downloaded here from
+% OpenNeuro, in the folder 'derivatives': https://openneuro.org/datasets/ds004504/versions/1.0.5
+
 % Add EEGLAB to the MATLAB path
 eeglab_path = 'path_to_eeglab_folder';  % Replace with the actual path to your EEGLAB folder
 addpath(eeglab_path);
